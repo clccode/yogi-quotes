@@ -38,7 +38,7 @@ yogi_quotes = [
     "Even Napoleon had his Watergate.",
     "A home opener is always exciting, whether it’s at home or on the road.",
     "I knew I was going to take the wrong train, so I left early.",
-    "I don't mean to be funny."
+    "I don't mean to be funny.",
     "It ain’t the heat, it’s the humility.",
     "I wish I had an answer to that because I'm tired of answering that question.",
     "90% of the putts that are short don’t go in.",
