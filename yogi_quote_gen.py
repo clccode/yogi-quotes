@@ -16,6 +16,6 @@ st.write("Click the button below to get a random Yogi Berra quote!")
 if st.button("Get Quote"):
     quote = get_random_quote()
     st.markdown(
-        f"<span style='font-size:1.5em; font-style:italic'>{quote}</span>",
+        f"<span style='font-size:1.5rem; font-style:italic'>{quote}</span>",
         unsafe_allow_html=True
     )
