@@ -8,10 +8,10 @@ def get_random_quote():
     """
     return random.choice(yogi_quotes.yogi_quotes)
 
-st.set_page_config(page_title="Yogi Berra Quote Generator", page_icon=":baseball:", layout="centered")
+st.set_page_config(page_title="Yogi Berra Quotes", page_icon=":baseball:", layout="centered")
 
-st.title("Yogi Berra Quote Generator")
-st.image("Yogi_Berra_1956.png", caption="Yogi Berra in 1956", width=300)
+st.title("Yogi Berra Quotes")
+st.image("Yogi_Berra_1956.png", caption="Yogi Berra in 1956", width=200)
 st.write("Click the button below to get a random Yogi Berra quote!")
 if st.button("Get Quote"):
     quote = get_random_quote()
