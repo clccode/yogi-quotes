@@ -15,4 +15,7 @@ st.image("Yogi_Berra_1956.png", caption="Yogi Berra in 1956", width=300)
 st.write("Click the button below to get a random Yogi Berra quote!")
 if st.button("Get Quote"):
     quote = get_random_quote()
-    st.write(f"*{quote}*")
+    st.markdown(
+        f"<span style='font-size:1.5em; font-style:italic'>{quote}</span>",
+        unsafe_allow_html=True
+    )
